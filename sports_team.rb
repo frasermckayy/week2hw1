@@ -24,8 +24,8 @@ class SportsTeam
   #
   # #setters
   #
-  # def set_coach(coach)
-  #   @coach = coach
+  # def set_coach(new_coach)
+  #   @coach = new_coach
   # end
 
 
