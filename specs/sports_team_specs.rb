@@ -35,8 +35,13 @@ class TestSportsTeam <  MiniTest::Test
     assert_equal(true, @sports_team.check_player_in_team("Sadio Mane"))
   end
 
-def test_points_start_at_zero()
+  def test_points_start_at_zero()
     assert_equal(0, @sports_team.points)
   end
 
-end
+  def test_have_team_scored()
+    assert_equal(true, @sports_team.points)
+
+  end
+
+  end
