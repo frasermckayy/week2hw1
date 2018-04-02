@@ -6,7 +6,11 @@ class SportsTeam
     @team_name = team_name
     @players = players
     @coach = coach
+
   end
+
+
+
 
 
   # #getters
@@ -27,6 +31,20 @@ class SportsTeam
   # def set_coach(new_coach)
   #   @coach = new_coach
   # end
+
+  def add_new_player(new_player)
+    @players << new_player
+  end
+
+  def check_player_in_team(player_name)
+    for player in @players
+      if player_name == player
+        return true
+      end
+    end
+  return nil
+end
+
 
 
 
