@@ -1,5 +1,5 @@
 require('minitest/autorun')
-require_relative('../homeworkday1.rb')
+require_relative('../sports_team.rb')
 
 class TestSportsTeam <  MiniTest::Test
 
@@ -9,7 +9,7 @@ class TestSportsTeam <  MiniTest::Test
 
 
   def test_sports_team_name()
-    assert_equal("liverpool", @sports_team.team_name)
+    assert_equal("Liverpool", @sports_team.team_name)
   end
 
   def test_sports_players()
@@ -19,5 +19,6 @@ class TestSportsTeam <  MiniTest::Test
   def test_sports_coach()
     assert_equal("Jurgen Klopp", @sports_team.coach)
   end
+
 
 end
