@@ -32,10 +32,4 @@ class Student
   end
 
 
-
-
-
-
-
-
 end
