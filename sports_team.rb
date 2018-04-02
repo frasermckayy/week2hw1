@@ -10,28 +10,6 @@ class SportsTeam
   end
 
 
-
-
-
-  # #getters
-  # def team_name()
-  #   return @team_name
-  # end
-  #
-  # def players()
-  #   return @players
-  # end
-  #
-  # def coach()
-  #   return @coach
-  # end
-  #
-  # #setters
-  #
-  # def set_coach(new_coach)
-  #   @coach = new_coach
-  # end
-
   def add_new_player(new_player)
     @players << new_player
   end
@@ -44,6 +22,12 @@ class SportsTeam
     end
   return nil
 end
+
+def points()
+  return 0
+end
+
+
 
 
 
