@@ -8,15 +8,15 @@ class TestSportsTeam <  MiniTest::Test
   end
 
 
-  def test_team_name()
+  def test_sports_team_name()
     assert_equal("liverpool", @sports_team.team_name)
   end
 
-  def test_players()
+  def test_sports_players()
     assert_equal(["Mo Salah", "Sadio Mane", "Roberto Firmino", "Andrew Robertson"], @sports_team.players)
   end
 
-  def test_coach()
+  def test_sportscoach()
     assert_equal("Jurgen Klopp", @sports_team.coach)
   end
 

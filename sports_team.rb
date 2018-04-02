@@ -4,8 +4,7 @@ class SportsTeam
     @team_name = team_name
     @players = players
     @coach = coach
-
-  end
+end
 
 
   #getters
