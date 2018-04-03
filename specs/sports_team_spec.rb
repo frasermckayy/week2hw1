@@ -4,7 +4,7 @@ require_relative('../sports_team.rb')
 class TestSportsTeam <  MiniTest::Test
 
   def setup()
-  @sports_team = SportsTeam.new("Liverpool", ["Mo Salah", "Sadio Mane", "Roberto Firmino", "Andrew Robertson"], "Jurgen Klopp", "win")
+  @sports_team = SportsTeam.new("Liverpool", ["Mo Salah", "Sadio Mane", "Roberto Firmino", "Andrew Robertson"], "Jurgen Klopp", 0)
   end
 
 
@@ -40,7 +40,7 @@ class TestSportsTeam <  MiniTest::Test
   end
 
   def test_won_or_lost()
-    assert_equal("win", @sports_team.won_or_lost("win"))
+    assert_equal(1, @sports_team.won_or_lost("win"))
    end
 
 
