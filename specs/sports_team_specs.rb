@@ -40,7 +40,7 @@ class TestSportsTeam <  MiniTest::Test
   end
 
   def test_won_or_lost()
-    assert_equal(1, @sports_team.won_or_lost(1))
+    assert_equal("win", @sports_team.won_or_lost("win"))
    end
 
 
